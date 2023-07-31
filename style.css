@@ -1,11 +1,14 @@
 @import url("https://fonts.googleapis.com/css2?family=Great+Vibes&family=Marck+Script&family=Montserrat:wght@300&family=Passions+Conflict&family=Poppins:wght@300&family=Rajdhani&family=Ubuntu:wght@300&display=swap");
-@import url('https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap');
+
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
     font-family: 'Poppins', sans-serif;
-    
+    text-decoration: none;
+    scroll-behavior: smooth;
+    border: none;
+    outline: none;
 
 }
 
@@ -91,7 +94,7 @@ body{
 
 section {
     min-height: 100vh;
-    padding: 10rem 9% 2rem;
+    padding: 7rem 9% 2rem;
 }
 
 .home{
@@ -954,6 +957,7 @@ span {
 
     .about-content p{
         width: 180px;
+        font-size: 15px;
     }
 
 }
